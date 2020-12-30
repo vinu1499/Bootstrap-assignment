@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="jumbotron">
+        <div class="container text center">
+            <h1>Bootstrap for Web Design </h1>
+            <h3>Tabs</h3>
+        </div>
+    </div>
+</div>
+<div class="container">
+  <ul class="nav nav-pills nav-justified">
+    <li><a data-toggle="pill" href="#section1">Section 1</a></li>
+    <li><a data-toggle="pill" href="#section2">Section 2</a></li>
+    <li class="active"><a data-toggle="pill" href="#section3">Section 3</a></li>
+  </ul>
+  
+  <div class="tab-content">
+    <div id="section1" class="tab-pane fade">
+      <p>This is a Section1 content</p>
+    </div>
+    <div id="section2" class="tab-pane fade">
+      <p>This is a Section2 content</p>
+    </div>
+    <div id="section3" class="tab-pane fade in active">
+      <p>This is a Section3 content</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
